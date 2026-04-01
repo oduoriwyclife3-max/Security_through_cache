@@ -135,6 +135,6 @@ if __name__ == "__main__":
     #     print("Error: Target URL required")
     #     exit(1)
     
-    TARGET = "https://rosymbo.co.ke/admin/index.php"
+    TARGET = "https://example.txt"
     scanner = WebSecurityAnalyzer(TARGET, max_depth=2)
     scanner.run()
